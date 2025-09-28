@@ -1,0 +1,14 @@
+/* Reset Vite defaults that constrain width */
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: initial;
+}
+
+/* Ensure header spans full width */
+header.navbar {
+  width: 100%;
+}
+
