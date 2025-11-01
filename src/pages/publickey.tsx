@@ -1,5 +1,4 @@
 
-import powerlines from '../assets/Powerlines-in-the-Beijing-populated-areas-fixed.svg'
 
 export default function Publickey() {
     return (
