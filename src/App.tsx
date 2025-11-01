@@ -10,6 +10,8 @@ import AboutMe from './pages/aboutme'
 import Resume from './pages/resume'
 import Contact from './pages/contact'
 import Portfolio from './pages/portfolio'
+import Publickey from './pages/publickey'
+import TempoTapper from './pages/tempoTapper'
 function App() {
   const [search, setSearch] = useState('')
 
@@ -32,6 +34,8 @@ function App() {
               <Route path="/resume" element={<Resume/>} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/publickey" element={<Publickey/>} />
+              <Route path="/tempoTapper" element={<TempoTapper/>} />
 
 
               <Route path="*" element={<Navigate to="/" replace />} />
